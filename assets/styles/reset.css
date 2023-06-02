@@ -1,0 +1,72 @@
+/* Reset css */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+div,
+section,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+i {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 24px;
+    box-sizing: border-box;
+    transition-duration: 0.7s;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+a,
+span,
+i {
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+/* Setup Css */
+
+:root {
+    --brand_color_deep: rgb(3, 102, 3);
+    --brand_color_light: rgb(146, 189, 146);
+    --gray: rgb(104, 103, 103); 
+    --pg_color: rgb(56, 56, 56);
+    --h1_font_size: 42px;
+    --h2_font_size: 22px;
+    --h3_font_size: 18px;
+    --border: 1px solid red;
+}
+
+h1 {
+    font-size: var(--h1_font_size);
+}
+
+h2 {
+    font-size: var(--h2_font_size);
+}
+
+h3 {
+    font-size: var(--h3_font_size);
+}

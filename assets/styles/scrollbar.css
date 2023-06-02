@@ -1,0 +1,22 @@
+/* SCROLLBER CSS */
+
+/* width */
+.right_site_contents main::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  .right_site_contents main::-webkit-scrollbar-track {
+    background: #f3eeec;
+  }
+  
+  /* Handle */
+  .right_site_contents main::-webkit-scrollbar-thumb {
+    background:var(--brand_color_light);
+    border-radius: 25px;
+  }
+  
+  /* Handle on hover */
+  .right_site_contents main::-webkit-scrollbar-thumb:hover {
+    background:var(--brand_color_deep)
+  }

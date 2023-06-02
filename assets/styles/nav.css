@@ -1,0 +1,21 @@
+/* nav_bar_css */
+
+/* nav{}; */
+
+/* nav ul {}; */
+
+nav ul li{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+/* nav ul li a{} */
+
+nav ul li a i{
+    color: var(--gray);
+    font-size: 28px;
+}
+
+nav ul li a i:hover{
+    color: var(--brand_color_deep);
+}
