@@ -12,7 +12,7 @@ nav ul li{
 /* nav ul li a{} */
 
 nav ul li a i{
-    color: var(--gray);
+    color: var(--brand_color_light);
     font-size: 28px;
 }
 

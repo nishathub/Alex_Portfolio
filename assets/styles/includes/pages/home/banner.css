@@ -1,0 +1,80 @@
+/* PROFILE DESCRIPTION (MIDDLE) STAR  */
+
+
+.banner_body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.banner_body .banner_left_desc{
+    color: var(--white);
+}
+.banner_body .banner_left_desc .designation{
+    font-size: 15px;
+    font-weight: 100;
+    font-family: var(--Montserrat);
+    line-height: 24px;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+.banner_body .banner_left_desc .user_name{
+    font-size: 35px;
+    font-family: var(--wave);
+    font-weight: 300;
+    line-height: 40px ;
+    margin: 10px 0 30px;
+    color: var(--brand_color_light);
+}
+.banner_body .banner_left_desc .user_description{
+    line-height: 25px;
+    margin-bottom: 30px;
+    font-family: var(--Montserrat);
+}
+.banner_body .banner_left_desc ul{
+    /* border: var(--border); */
+    display: flex;
+    gap: 10px;
+}
+.banner_body .banner_left_desc ul li{
+   
+}
+.banner_body .banner_left_desc ul li a{}
+
+.btn_green a{
+    color: var(--white);
+    border: 2px solid rgb(245, 245, 245);
+    background-color: var(--brand_color_deep);
+    padding: 8px 25px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 0 var(--black);
+    
+}
+
+.btn_green a:hover{
+    color: var(--white);
+    background-color: transparent;
+}
+
+.btn_contact a{
+    color: var(--black);
+    border: 2px solid rgb(245, 245, 245);
+    background-color: var(--brand_color_light);
+    padding: 8px 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 0 var(--black);
+   
+}
+.btn_contact a:hover{
+    color: var(--white);
+    background-color: transparent;
+}
+.banner_body .banner_right_img .img{
+    text-align: right;
+
+}
+.banner_body .banner_right_img .img img{
+      width: 300px;
+      height: auto;
+      clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+

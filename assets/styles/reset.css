@@ -28,14 +28,16 @@ i {
     margin: 0;
     padding: 0;
     font-size: 14px;
-    line-height: 24px;
+    line-height: unset;
     box-sizing: border-box;
     transition-duration: 0.7s;
 }
 
 ol,
-ul {
+ul,
+li {
     list-style-type: none;
+    text-decoration: none;
 }
 
 a,
@@ -49,10 +51,25 @@ i {
 /* Setup Css */
 
 :root {
-    --brand_color_deep: rgb(3, 102, 3);
-    --brand_color_light: rgb(146, 189, 146);
+    /* Google Fonts  */
+    --Bruno: 'Bruno Ace SC', sans-serif;
+    --Kolker: 'Kolker Brush', sans-serif;
+    --Montserrat: 'Montserrat', sans-serif;
+    --wave: "Audiowide", sans-serif;
+    --sofia: "Sofia", sans-serif;
+    --Monts_alt: 'Montserrat Alternates', sans-serif;
+    --Opensans: 'Open Sans', sans-serif;
+    
+    /* Color  */
+    --brand_color_deep: rgb(1, 148, 1);
+    --brand_color_light: rgb(171, 218, 194);
     --gray: rgb(104, 103, 103); 
-    --pg_color: rgb(56, 56, 56);
+    --white: rgb(245, 245, 245);
+    --black: rgb(17, 17, 17);
+    --black_op: rgba(17, 17, 17, 0.589);
+    --transparent: rgba(15, 15, 15, 0.384);
+    --pg_color: rgb(199, 199, 199);
+    --Counter: rgb(136, 136, 136);
     --h1_font_size: 42px;
     --h2_font_size: 22px;
     --h3_font_size: 18px;

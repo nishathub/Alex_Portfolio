@@ -3,3 +3,6 @@
 @import "../styles/left_part.css";
 @import "../styles/nav.css";
 @import "../styles/scrollbar.css";
+@import "../styles/includes/pages/home/banner.css";
+@import "../styles/includes/pages/home/counter.css";
+@import "../styles/includes/pages/home/service.css";

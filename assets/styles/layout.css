@@ -1,9 +1,19 @@
-#theme_body {
+body{
     background-image: url(/assets/images/theme_bc_img.jpg);
     background-size: cover;
-    background-position:top center;
+    background-position: center;
     background-attachment: fixed;
+}
+
+.basic_layout{
+    
+}
+
+#theme_body {
+
     height: 100vh;
+    max-width: 1300px;
+    margin: auto;
     display: grid;
     grid-template-columns: 2fr 5fr;
 }
@@ -22,7 +32,7 @@
 }
 
 #theme_body .right_site_content_wrapper .right_site_contents{
-    background-color: rgba(255, 255, 255, 0.575);
+    background-color: var(--transparent);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.411);
     height: 100% ;
     display: flex;
@@ -35,40 +45,7 @@
     overflow-y: scroll;
 }
 
-/* .content_header{
-    position: sticky;
-    background-color: aliceblue;
-    color: rgb(15, 41, 35); 
-     font-size: 29px;
-    text-align: center;
-    line-height: 30px;
-    top: 0;
-} */
 
-/* .heading{
-    border: var(--border);
-    position: relative;
-} */
-.content_header{
-    font-size: 24px;
-    position: relative;
-}
-
-.content_header::after  {
-    content: "";
-    position: absolute;
-    width: 0px;
-    height: 3px;
-    background: rgb(114,111,177);
-    background: linear-gradient(90deg, rgba(114,111,177,0.6877323420074349) 0%, rgba(9,9,121,1) 54%, rgba(42,151,195,0.42750929368029744) 100%);
-    bottom: -1px;
-    left: 0;
-    transition: .7s;
-
-}
-.content_header:hover::after {
-    width: 40px;
-  }
 
 
 .right_site_contents nav {
