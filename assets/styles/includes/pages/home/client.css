@@ -1,0 +1,20 @@
+#clients_section{
+    padding: 80px 0;
+    /* border: var(--border); */
+}
+
+.client_list{
+    /* border: var(--border); */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+/* .client_list .single_client{} */
+/* .single_client .client_image{} */
+.single_client .client_image img{
+    background-color: #dddddd94;
+    height: 70px;
+    width: 150px;
+}
+

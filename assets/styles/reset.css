@@ -27,6 +27,7 @@ span,
 i {
     margin: 0;
     padding: 0;
+    color: var(--white);
     font-size: 14px;
     line-height: unset;
     box-sizing: border-box;
@@ -70,6 +71,7 @@ i {
     --transparent: rgba(15, 15, 15, 0.384);
     --pg_color: rgb(199, 199, 199);
     --Counter: rgb(136, 136, 136);
+    --delicate_grey:  #adadad38;
     --h1_font_size: 42px;
     --h2_font_size: 22px;
     --h3_font_size: 18px;

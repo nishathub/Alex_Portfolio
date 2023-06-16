@@ -171,7 +171,7 @@ header {
 .profile_info_part .cv_download:hover{
     color: var(--black);
     background-color: var(--white);
-    border: 2px solid rgb(247, 153, 168);
+    /* border: 2px solid rgb(247, 153, 168); */
 }
 
 .profile_part_footer{

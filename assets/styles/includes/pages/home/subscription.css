@@ -1,0 +1,108 @@
+#pricing_subscription_section{
+    /* border: var(--border); */
+    padding-bottom: 80px;
+}
+
+.subscription_list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.subscription_list .single_subscription{
+    border: 1px dotted var(--white);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.subscription_list .single_subscription:hover{
+    border: none;
+    background-color: var(--delicate_grey);
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px 0px white;
+
+}
+
+.single_subscription .subscription_type{
+    font-size: 20px;
+    font-weight: 100;
+    /* color: silver; */
+    line-height: 20px;
+}
+.single_subscription .price{
+    color: var(--brand_color_light);
+    font-size: 30px;
+    font-weight: 400;
+    font-family: var(--wave);
+    margin-top: 25px;
+}
+.subscription_list .single_subscription p{
+    font-size: 13px;
+    font-family: var(--Montserrat);
+    /* margin-left: 50px; */
+    margin-bottom: 30px;
+}
+.single_subscription .trial_button{
+    border: 2px solid var(--white);
+    border-radius: 4px;
+    color: var(--white);
+    font-size: 16px;
+    font-family: var(--sofia);
+    padding: 5px 15px;
+    margin-bottom: 30px;
+    
+}
+.single_subscription .trial_button:hover{
+    color: var(--black);
+    background-color: var(--white);
+    /* border: 2px solid rgb(247, 153, 168); */
+}
+.single_subscription .subscription_details{
+    font-size: 16px;
+    line-height: 25px;
+}
+/* .single_subscription .subscription_details li{} */
+
+
+/* SEPARATE SUBSCRIPTION DESIGN  */
+
+.sub_1{
+    height: 300px;
+}
+
+.sub_1 .subscription_type{
+    color: silver;
+    font-family: var(--Monts_alt);
+}
+
+.subscription_list .sub_1:hover{
+    box-shadow: 0px 0px 8px 0px silver;
+
+}
+
+.sub_2{
+    height: 350px;
+}
+
+.sub_2 .subscription_type{
+    color: gold;
+    font-family: var(--Montserrat);
+}
+
+.subscription_list .sub_2:hover{
+    box-shadow: 0px 0px 8px 0px gold;
+
+}
+
+.sub_3{
+    height: 400px;
+}
+
+.sub_3 .subscription_type{
+    color: #e5e4e2;
+    font-family: var(--sofia);
+}
+
+.subscription_list .sub_3:hover{
+    box-shadow: 0px 0px 8px 0px white;
+
+}
