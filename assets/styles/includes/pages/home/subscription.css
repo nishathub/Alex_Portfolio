@@ -36,6 +36,7 @@
     margin-top: 25px;
 }
 .subscription_list .single_subscription p{
+    color: var(--pg_color);
     font-size: 13px;
     font-family: var(--Montserrat);
     /* margin-left: 50px; */
@@ -60,7 +61,9 @@
     font-size: 16px;
     line-height: 25px;
 }
-/* .single_subscription .subscription_details li{} */
+.single_subscription .subscription_details li{
+    color: var(--pg_color);
+}
 
 
 /* SEPARATE SUBSCRIPTION DESIGN  */
@@ -71,6 +74,7 @@
 
 .sub_1 .subscription_type{
     color: silver;
+    font-weight: 400;
     font-family: var(--Monts_alt);
 }
 
