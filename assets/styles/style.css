@@ -9,3 +9,10 @@
 @import "../styles/includes/pages/home/testimonial.css";
 @import "../styles/includes/pages/home/client.css";
 @import "../styles/includes/pages/home/subscription.css";
+
+/* Resume page css modules  */
+@import "./includes/pages/resume/education.css";
+@import "./includes/pages/resume/skill.css";
+@import "./includes/pages/resume/experience.css";
+@import "./includes/pages/resume/knowledge.css";
+@import "./includes/pages/resume/certificate.css";
