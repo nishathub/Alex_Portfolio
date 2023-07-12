@@ -1,0 +1,67 @@
+.Design{
+
+}
+.skill_list{
+    /* border: var(--border); */
+    
+}
+.skill_list .skill_single_item{
+    margin-bottom: 20px;
+
+}
+.skill_list .skill_single_item .skill_description{
+    display: flex;
+    justify-content: space-between;
+}
+.skill_list .skill_single_item .skill_description .skill_name{
+    font-size: 14px;
+    line-height: 13px;
+    font-weight: 600;
+    font-family: var(--Opensans);
+    margin-bottom: 5px;
+}
+.skill_list .skill_single_item .skill_description .skill_percent{
+    font-size: 13px;
+    line-height: 12px;
+    font-weight: 400;
+    font-family: var(--Opensans);
+    color: var(--pg_color);
+}
+
+.skill_list .skill_single_item .skill_progress{
+    position: relative;
+    height: 5px;
+    border-radius: 25px;
+    background-color: var(--transparent);
+}
+.skill_list .skill_single_item .skill_progress .progress_bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 25px;
+    background-color: var(--brand_color_deep);
+}
+
+/*--------------------CODING PART---------------  */
+.Coding{
+    margin-top: 50px;
+}
+/*--------------------Knowledge PART---------------  */
+.Knowledge{
+    margin-top: 50px;
+}
+.Knowledge .knowledge_list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.Knowledge .knowledge_list .knowledge_single_item{
+    font-size: 14px;
+    font-family: var(--Montserrat);
+    background-color: var(--brand_color_light);
+    border-radius: 25px;
+    color: var(--black);
+    padding: 5px 15px;
+
+}

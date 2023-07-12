@@ -1,0 +1,91 @@
+.resume_sec_row{
+    /* border: var(--border); */
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-top: 60px;
+}
+.edu_list{
+
+}
+.edu_single_item{
+    /* border: var(--border); */
+    display: flex;
+    gap: 10px;
+}
+.edu_single_item .experience_time{
+    text-align: right;
+    /* border: var(--border); */
+    width: 90px;
+}
+.edu_single_item .experience_time .year{
+    font-size: 14px;
+    line-height: 13px;
+    font-weight: 600;
+    font-family: var(--Opensans);
+    margin-bottom: 10px;
+    
+}
+.edu_single_item .experience_time .Institute{
+    font-size: 13px;
+    line-height: 12px;
+    font-weight: 400;
+    font-family: var(--Opensans);
+    color: var(--pg_color);
+}
+.edu_single_item .mid_line{
+    /* border: var(--border); */
+    width: 20px;
+    position: relative;
+}
+.edu_single_item .mid_line .mid_stroke{
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--gray);
+    /* margin-left: 50%; */
+}
+.mid_line .outer_circle{
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-52%);
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 2px solid var(--brand_color_light);
+    box-sizing: border-box;
+    z-index: 9;
+    
+}
+.mid_line .inner_circle{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid var(--brand_color_deep);
+    background-color: var(--white);
+    box-sizing: border-box;
+}
+
+.edu_single_item .experience_details{
+    /* border: var(--border); */
+    flex: 1;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+.edu_single_item .experience_details .details_heading{
+    font-size: 14px;
+    line-height: 13px;
+    font-weight: 600;
+    font-family: var(--Opensans);
+    margin-bottom: 10px;
+}
+.edu_single_item .experience_details .details_pg{
+    font-size: 13px;
+    line-height: 12px;
+    font-weight: 400;
+    font-family: var(--Opensans);
+    color: var(--pg_color);
+}
+
