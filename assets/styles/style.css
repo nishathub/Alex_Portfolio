@@ -16,3 +16,9 @@
 @import "./includes/pages/resume/experience.css";
 @import "./includes/pages/resume/knowledge.css";
 @import "./includes/pages/resume/certificate.css";
+
+/* PORTFOLIO PAGE CSS MODULE  */
+@import "./includes/pages/portfolio/portfolio.css";
+
+/* BLOG PAGE CSS */
+@import "./includes/pages/blog/blog_list.css";

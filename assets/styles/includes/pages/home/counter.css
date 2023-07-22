@@ -12,11 +12,11 @@
 
 .counter_single_list{
     border: 1px solid var(--Counter);
+    box-shadow: 1px 1px 1px 0 rgba(128, 128, 128, 0.411);
     display: grid;
     grid-template-columns: 1fr 2fr;
     overflow: hidden;
     background-color: transparent;
-    box-shadow: 1px 1px 1px 0 rgba(128, 128, 128, 0.411);
     padding: 10px 0;
     border-radius: 5px;
 }
