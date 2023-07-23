@@ -22,3 +22,8 @@
 
 /* BLOG PAGE CSS */
 @import "./includes/pages/blog/blog_list.css";
+@import "./includes/pages/blog/blog_post_1.css";
+
+/* CONTACT PAGE CSS */
+@import "./includes/pages/contact/contact.css";
+@import "./includes/pages/contact/contact_form.css";

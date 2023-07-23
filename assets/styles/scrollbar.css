@@ -7,16 +7,16 @@
   
   /* Track */
   .right_site_contents main::-webkit-scrollbar-track {
-    background: #f3eeec;
+    background: var(--black);
   }
   
   /* Handle */
   .right_site_contents main::-webkit-scrollbar-thumb {
-    background:var(--brand_color_light);
-    border-radius: 25px;
+    background:var(--brand_color_deep);
+    border-radius: 0px;
   }
   
   /* Handle on hover */
   .right_site_contents main::-webkit-scrollbar-thumb:hover {
-    background:var(--brand_color_deep)
+    background:var(--brand_color_light)
   }

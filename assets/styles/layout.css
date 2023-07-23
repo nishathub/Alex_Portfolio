@@ -52,3 +52,14 @@ body{
     /* border: 1px solid red; */
     width: 80px;
 }
+
+.basic_layout .right_open_area{
+    position: fixed;
+    right: 0;
+    top: 0;
+    height:100vh ;
+    width: calc(50vw - 650px);
+    background-color: rgba(82, 105, 82, 0.322);
+    /* border: var(--border); */
+
+}
