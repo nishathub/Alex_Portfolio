@@ -70,6 +70,12 @@
             <div class="right_site_content_wrapper">
                 <div class="right_site_contents">
                     <main>
+
+                        <div class="top_bar">
+                            <span>Nishat</span>
+                            <i onclick="nav_id.classList.toggle('active')" class="fa fa-align-justify"></i>
+                        </div>
+
                         <div class="page_heading">
                             <h2 class="heading">Contact</h2>
                             <h3 class="sub_heading">Get in Touch</h3>
@@ -80,7 +86,7 @@
                                 <i class="fa-solid fa-location-dot"></i>
                                 <h4>Mirpur</h4>
                             </div>
-                            <div class="single_box">
+                            <div class="single_box phone_number">
                                 <i class="fa-solid fa-phone"></i>
                                 <h4>+88 0123 4567 890</h4>
                             </div>
@@ -107,17 +113,62 @@
                             <div class="contact_form">
                                 <div class="form_left_part">
 
-                                    <input type="text" placeholder="Subject">
-                                    <input type="text" placeholder="Full Name">
-                                    <input type="text" placeholder="Email">
+                                    <div class="java_label">
+                                        <label class="form_label" id="input_full_name" for="">Full Name</label>
+                                        <input 
+                                        onkeydown="event.target.value.length > 1 ?
+                                         input_full_name.classList.add('active'):
+                                         input_full_name.classList.remove('active')
+                                         "
+                                        />  
+                                    </div>
 
-                                    <button>Submit</button>
+                                    <div class="java_label">
+                                        <label class="form_label" id="input_subject" for="">Subject</label>
+                                        <input 
+                                        onkeydown="event.target.value.length > 1 ?
+                                         input_subject.classList.add('active'):
+                                         input_subject.classList.remove('active')
+                                         "
+                                        />  
+                                    </div>
 
+                                    <div class="java_label">
+                                        <label class="form_label" id="Input_Email" for="">Email</label>
+                                        <input 
+                                        onkeydown="event.target.value.length> 1 ?
+                                         Input_Email.classList.add('active'):
+                                         Input_Email.classList.remove('active')
+                                         "
+                                        />  
+                                    </div>
+                            
+                                    <!-- <input id="input_subject" type="text" placeholder="Subject"> -->
+
+                                    
+                                    <!-- <input id="Input_Email" type="text" placeholder="Email"> -->
+                                    <br>
+
+                                    
+
+                                </div>
+
+                                <div class="submit_button">
+                                <button>Submit</button>
                                 </div>
 
                                 <div class="form_right_part">
                                     <div class="text_area">
-                                        <textarea cols="30" rows="10" placeholder="Write Your Message Here.."></textarea>
+                                        <div class="java_label">
+                                           <label class="form_label" id="text_area_id" for="">Write Your Message Here..</label>
+                                            <textarea 
+                                            onkeydown="event.target.value.length > 1 ?
+                                            text_area_id.classList.add('active'):
+                                            text_area_id.classList.remove('active')
+                                            "
+                                            cols="30" rows="10"></textarea>  
+                                        </div>
+                                         
                                     </div>
                                 </div>
 
@@ -125,22 +176,22 @@
                         </div>
 
                     </main>
-                    <nav>
+                    <nav id="nav_id" class="">
                         <ul>
                             <li>
-                                <a href="index.html"><i class="fa-solid fa-user"></i></a>
+                                <a href="index.html"><i class="fa-solid fa-user"></i><span>Profile</span></a>
                             </li>
                             <li>
-                                <a href="resume.html"><i class="fa-solid fa-graduation-cap"></i></a>
+                                <a href="resume.html"><i class="fa-solid fa-graduation-cap"></i><span>Resume</span></a>
                             </li>
                             <li>
-                                <a href="portfolio.html"><i class="fa-solid fa-briefcase"></i></a>
+                                <a href="portfolio.html"><i class="fa-solid fa-briefcase"></i><span>Portfolio</span></a>
                             </li>
                             <li>
-                                <a href="blog.html"><i class="fa-solid fa-book"></i></a>
+                                <a href="blog.html"><i class="fa-solid fa-book"></i><span>Blog</span></a>
                             </li>
                             <li>
-                                <a href="contact.html"><i class="fa-solid fa-envelope"></i></a>
+                                <a href="contact.html"><i class="fa-solid fa-envelope"></i><span>Contact</span></a>
                             </li>
                         </ul>
                     </nav>

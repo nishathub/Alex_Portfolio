@@ -91,7 +91,11 @@
                                     <img src="/assets/images/Portfolio_gallery/portfolio_image_1.jpg" alt="">
                                 </div>
                                 <div class="overlay">
-                                    <a href="#">
+                                    <a onclick=
+                                    "image_viewer_id.classList.add('active');
+                                     image_show_frame.src = `/assets/images/Portfolio_gallery/portfolio_image_1.jpg`
+                                     " 
+                                    href="#">
                                     <h2>Overlay Heading</h2>
                                     <h3>Overlay Footer</h3>  
                                     </a>                               
@@ -179,6 +183,17 @@
         </div>
 
     </section>
+
+    <div id="image_viewer_id" class="image_viewer">
+            
+            <div class="img">
+                <i onclick="image_viewer_id.classList.remove('active')" 
+                class="fa-solid fa-xmark"></i>
+                <img id="image_show_frame" src="" alt="">
+
+            </div>
+        
+    </div>
 
 </body>
 

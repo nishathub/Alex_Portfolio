@@ -1,3 +1,7 @@
+.top_bar{
+    display: none;
+}
+
 .contact_container{
     margin-top: 40px;
 }
@@ -15,17 +19,19 @@
     /* border: var(--border); */
     display: block;
     gap: 10px;
+    grid-area: form_left_part;
 }
 .contact_container .contact_form .form_left_part input{
+    /* border: var(--border); */
     width: 100%;
     box-sizing: border-box;
     padding: 5px 10px;
     border-radius: 5px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     background-color: var(--brand_color_light);
     
 }
-.contact_container .contact_form .form_left_part button{
+.contact_container .contact_form .submit_button button{
     padding: 5px 20px;
     border-radius: 10px;
     font-family: var(--Opensans);
@@ -34,9 +40,14 @@
     font-size: 14px;
     cursor: pointer;
     border: 1px solid var(--brand_color_light);
+    
+}
+.contact_container .contact_form .submit_button{
+    grid-area: submit_button;
+    /* border: var(--border); */
 }
 
-.contact_container .contact_form .form_left_part button:focus{
+.contact_container .contact_form .submit_button button:focus{
     background-color: var(--gray);
     
 }
@@ -44,8 +55,11 @@
 
 .contact_container .contact_form .form_right_part{
     /* border: var(--border); */
+    grid-area: form_right_part;
 }
 .contact_container .contact_form .form_right_part .text_area{
+    position: relative;
+    /* border: var(--border); */
     
 }
 .contact_form .form_right_part .text_area textarea{
@@ -57,3 +71,34 @@
     background-color: var(--brand_color_light);
 }
 
+.java_label{
+    /* border: var(--border); */
+}
+.java_label .form_label.active{
+    
+    position: unset;
+    display: inline-block;
+    left: 0px;
+    top: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: var(--white);
+    color: var(--black);
+    
+}
+.java_label .form_label{
+    /* border: var(--border); */
+    position: relative;
+    left: 10px;
+    top: 25px;
+    /* margin-bottom: 10px; */
+    color: var(--black);
+    transition-duration: 1s;
+    z-index: 99;
+    /* border-radius: 10px;
+    padding: 5px 10px;
+    background-color: var(--brand_color_deep);
+    color: var(--white); */
+}

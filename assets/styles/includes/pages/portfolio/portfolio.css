@@ -95,3 +95,40 @@
     transition-delay: 0.4s;
     opacity: 0;
 }
+
+.image_viewer.active{
+    transform: scale(1);
+}
+.image_viewer{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--black_op);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+
+.image_viewer .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: var(--border); */
+    position: relative;
+}
+.image_viewer .img img{
+    max-width: 25%;
+    /* border: var(--border) ; */
+    
+}
+.image_viewer i{
+    position: absolute;
+    right: 35%;
+    top: -20px;
+    color: var(--brand_color_light);
+    font-size: 40px;
+    cursor: pointer;
+}
