@@ -1,19 +1,21 @@
 /* nav_bar_css */
 
-/* nav{}; */
+nav .left_profile_info{
+    display: none;
+}
 
 /* nav ul {}; */
 
-nav ul li{
+nav>ul li{
     text-align: center;
     margin: 30px 0px;
 }
 
-nav ul li a span{
+nav>ul li a span{
     display: none;
 }
 
-nav ul li a i{
+nav>ul li a i{
     color: var(--brand_color_light);
     font-size: 28px;
 }

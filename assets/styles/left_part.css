@@ -150,6 +150,9 @@ header {
     margin-top: 20px;
     line-height: 15px;
     font-family: var(--Monts_alt);
+    display: inline-block;
+    align-items: center;
+    text-align: center;
 }
 
 .profile_info_part .profile_contact li a{

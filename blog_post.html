@@ -71,6 +71,11 @@
                 <div class="right_site_contents">
                     <main>
 
+                        <div class="top_bar">
+                            <span>Nishat</span>
+                            <i onclick="nav_id.classList.toggle('active')" class="fa fa-align-justify"></i>
+                        </div>
+
                         <div class="top_poster">
                             <div class="img">
                                 <img src="./assets/images/Blog/blog_post_poster_1.jpg" alt="blog_poster">
@@ -130,17 +135,17 @@
 
                             <div class="footer_blog">
 
-                                <div class="footer_left">
-                                    <div class="footer_upper_left">
+                                    <div class="footer_upper">
 
                                         <div class="author_item">
                                             <i class="fa-regular fa-user"></i>
                                             <h4 class="author_name">Nishat</h4>
                                         </div>
                                     </div>
-
-                                    <div class="footer_bottom_left">
-                                        <div class="blog_catagory_filter">
+                                    
+                                    <div class="footer_bottom">
+                                    
+                                        <div class="blog_category_filter">
                                             <ul>
                                                 <li><a class="active" href="#">Sports</a></li>
                                                 <li><a href="#">UI</a></li>
@@ -148,19 +153,15 @@
                                                 <li><a href="#">AI</a></li>
                                             </ul>
                                         </div>
+                                    
+                                        <div class="social_link_list">
+                                            <ul class="social_link">
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></i></li>
+                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            </ul>
+                                        </div>
                                     </div>
-
-                                </div>
-
-                                <div class="footer_right">
-                                    <div class="social_link_list">
-                                        <ul class="social_link">
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></i></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
 
 
 
@@ -169,22 +170,67 @@
                         </div>
 
                     </main>
-                    <nav>
+                    <nav id="nav_id" class="">
+
+                        <!-- ONLY VISIBLE IN SMALL DEVICE -->
+
+                        <div class="left_profile_info">
+                            <header>
+                                <div class="profile_part">
+                                    <div class="profile_circle">
+                                        <div class="img">
+                                            <img src="./assets/images/basic_layout/profile.png" alt="alex_profile_photo">
+                                        </div>
+                                    </div>
+            
+                                    <ul class="language_switcher">
+                                        <li> <a href="#">Bn</a></li>
+                                        <li> <a class="active" href="#">En</a></li>
+                                    </ul>
+                                </div>
+                                <div class="profile_info_part">
+                                    <h1 class="profile_name">Nishat</h1>
+                                    <h3 class="profile_designation font-effect-neon">Web Designer</h3>
+                                    <div class="social_link_div ">
+                                        <ul class="social_link">
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></i></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                    </div>
+            
+                                    <ul class="profile_contact">
+                                        <li><a class="pro_contact_no" href="#">+880 123 456 789 </a></li> <br>
+                                        <li><a class="" href="#">mail_nishat@gmail.com</i></a></li>
+                                    </ul> <br> <br>
+                                    <a class="cv_download" href="#" download="">Download CV</a>
+                                </div>
+            
+                            </header>
+                            <footer class="profile_part_footer">
+                                <p class="profile_footer_p">
+                                    &copy; 2023 All rights reserved.
+                                </p>
+                            </footer>
+
+                            <!-- END OF SMALL DEVICE DESIGN -->
+
+                        </div>
                         <ul>
                             <li>
-                                <a href="index.html"><i class="fa-solid fa-user"></i></a>
+                                <a href="index.html"><i class="fa-solid fa-user"></i><span>Profile</span></a>
                             </li>
                             <li>
-                                <a href="resume.html"><i class="fa-solid fa-graduation-cap"></i></a>
+                                <a href="resume.html"><i class="fa-solid fa-graduation-cap"></i><span>Resume</span></a>
                             </li>
                             <li>
-                                <a href="portfolio.html"><i class="fa-solid fa-briefcase"></i></a>
+                                <a href="portfolio.html"><i class="fa-solid fa-briefcase"></i><span>Portfolio</span></a>
                             </li>
                             <li>
-                                <a href="blog.html"><i class="fa-solid fa-book"></i></a>
+                                <a href="blog.html"><i class="fa-solid fa-book"></i><span>Blog</span></a>
                             </li>
                             <li>
-                                <a href="contact.html"><i class="fa-solid fa-envelope"></i></a>
+                                <a href="contact.html"><i class="fa-solid fa-envelope"></i><span>Contact</span></a>
                             </li>
                         </ul>
                     </nav>
