@@ -1,0 +1,60 @@
+@import "./components/social_icon.scss";
+@import "./abstract/variables.scss";
+@import "./components/card";
+@import "./mix_in/break_points";
+
+
+body {
+    background-color: $body_color;
+    padding: 15px;
+    height: 100vh;
+}
+
+.box_1{
+    
+    padding: 15px;
+    border: 2px dotted yellow;
+    h1{
+            font-family: $font_1;
+            font-size: 25px;
+        }
+
+    p{
+        font-family: $font_3;
+        font-size: 18px;
+        line-height: 25px;
+        
+    }
+
+    ul{ border: 2px dotted rgb(228, 23, 23);
+        list-style-type: none;
+        padding-left: 20px;
+        margin:0;
+        text-align: left;
+
+       li { 
+            margin-top: 20px;
+            display: block;
+            margin-bottom: 20px;
+
+            a{
+                i{
+                    color: rgb(56, 56, 56);
+                    @include md(){
+                        color: white;
+                    };
+                    @include lg(){
+                        color: black;
+                    };
+                    @include xl(){
+                        color: red;
+                    };
+                }
+            }
+       }
+
+    }
+
+    
+}
+

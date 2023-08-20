@@ -1,0 +1,19 @@
+{
+  "name": "alex_cv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass assets/scss/style.scss assets/styles/sass_style.css -w",
+    "postcss": "postcss normal_temp.css -o post_temp.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "postcss": "^8.4.28",
+    "postcss-cli": "^10.1.0",
+    "postcss-preset-env": "^9.1.1"
+  }
+}

@@ -1,0 +1,17 @@
+body{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-transition-duration:.7s ;
+            transition-duration:.7s ;
+    -webkit-transition: .9s;
+    transition: .9s;
+    -webkit-animation: all linear .9s ;
+            animation: all linear .9s ;
+}

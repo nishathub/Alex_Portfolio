@@ -1,0 +1,35 @@
+@import "../abstract/variables";
+@import "../mix_in/break_points";
+
+
+
+.card {
+    background-color: white;
+
+    &:hover{
+        background-color: skyblue;
+    }
+
+    @include xs() {
+        background-color: $bg_color_1;
+        border: 5px solid black;
+    }
+    @include sm() {
+        background-color: $bg_color_2;
+        border: 5px solid black !important;
+        border-radius: 20px;
+    }
+    @include md() {
+        background-color: $bg_color_3;
+    }
+    @include lg() {
+        background-color: $bg_color_4;
+    }
+    @include xl() {
+        background-color: $bg_color_5;
+    }
+    @include xxl() {
+        background-color: $bg_color_6;
+    }
+}
+

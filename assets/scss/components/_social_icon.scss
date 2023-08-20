@@ -1,0 +1,25 @@
+@import "../abstract/variables.scss";
+
+@mixin master_icon($bg_color, $border:rgb(0, 140, 255)){
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: $bg_color;
+    border: 2px solid $border;
+    line-height: 30px;
+    text-align: center;
+}
+
+.icon_1{
+    @include master_icon($icn_1, $border_1); 
+    
+}
+.icon_2{
+    @include master_icon($icn_2, $border_2); 
+    
+}
+.icon_3{
+    @include master_icon($icn_3, $border_3); 
+    
+}
