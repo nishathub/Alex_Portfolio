@@ -15,7 +15,7 @@
         background-color:var(--black_op) ;
         margin-top: 40px;
         width: 250px;
-        height: 90vh;
+        height: 70vh;
         text-align: left;
         display: grid;
         grid-template-columns: 1fr;
