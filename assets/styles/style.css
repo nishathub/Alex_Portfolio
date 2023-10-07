@@ -11,11 +11,11 @@
 @import "../styles/includes/pages/home/subscription.css";
 
 /* Resume page css modules  */
-@import "./includes/pages/resume/education.css";
-@import "./includes/pages/resume/skill.css";
-@import "./includes/pages/resume/experience.css";
-@import "./includes/pages/resume/knowledge.css";
-@import "./includes/pages/resume/certificate.css";
+@import "../styles/includes/pages/resume/education.css";
+@import "../styles/includes/pages/resume/skill.css";
+@import "../styles/includes/pages/resume/experience.css";
+@import "../styles/includes/pages/resume/knowledge.css";
+@import "../styles/includes/pages/resume/certificate.css";
 
 /* PORTFOLIO PAGE CSS MODULE  */
 @import "./includes/pages/portfolio/portfolio.css";
