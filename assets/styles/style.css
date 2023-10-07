@@ -27,4 +27,6 @@
 /* CONTACT PAGE CSS */
 @import "./includes/pages/contact/contact.css";
 @import "./includes/pages/contact/contact_form.css";
+
+/* RESPONSIVE */
 @import "./responsive.css";
